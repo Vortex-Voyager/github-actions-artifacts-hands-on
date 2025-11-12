@@ -26,7 +26,6 @@ jobs:
     steps:
     - uses: actions/download-artifact@v5
       with:
-        name: my-artifact
         path: ./artifacts/
       
     - name: Display text    
