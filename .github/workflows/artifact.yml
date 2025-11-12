@@ -27,7 +27,7 @@ jobs:
     - name: Download text file
       uses: actions/download-artifact@v5
       with:
-        path: ./artifacts/
+        path: ./artifacts
       
     - name: Display content of the text file
       run: |
